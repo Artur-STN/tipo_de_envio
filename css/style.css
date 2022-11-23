@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&family=Poppins:wght@300&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    transition: 0.2s;
+
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+
+    background: #003366;
+
+}
+
+section {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 10px;
+
+    width: 400px;
+
+}
+
+section div.div_Pac,
+section div.div_Sedex {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background: white;
+
+    flex-direction: column;
+
+    border: 1px solid;
+
+    padding: 1rem;
+
+    border-radius: 10px;
+
+}
+
+section div h1 {
+
+    font-family: 'Alexandria', sans-serif;
+
+}
+
+section div.div_Pac input#quantidade_Pac,
+section div.div_Sedex input#quantidade_Sedex {
+    
+    font-size: 4rem;
+    font-family: 'Poppins';
+    font-weight: bolder;
+
+    text-align: center;
+
+    border: 2px solid black;
+    
+    border-radius: 5px;
+    
+    width: 150px;
+    height: 100px;
+
+}
+
+section div.div_Pac div.buttons,
+section div.div_Sedex div.buttons {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 150px;
+
+}
+
+section div.div_Pac div.buttons input#mais_um_Pac,
+section div.div_Sedex div.buttons input#mais_um_Sedex {
+
+    background: green;
+    color: white;
+
+    text-shadow: 0 0 10px black;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+section div.div_Pac div.buttons input#mais_um_Pac:focus,
+section div.div_Sedex div.buttons input#mais_um_Sedex:focus {
+
+    transform: scale(1.1);
+
+}
+
+section div.div_Pac div.buttons input#menos_um_Pac,
+section div.div_Sedex div.buttons input#menos_um_Sedex {
+
+    background: rgb(226, 4, 4);
+    color: white;
+
+    text-shadow: 0 0 10px black;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+section div.div_Pac div.buttons input#menos_um_Pac:focus,
+section div.div_Sedex div.buttons input#menos_um_Sedex:focus {
+
+    transform: scale(1.1);
+
+}
+
+section div.buttons input {
+
+    font-size: 2rem;
+    font-weight: bolder;
+
+    margin-top: 1rem;
+    
+    width: 70px;
+    height: 48px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    
+    -webkit-appearance: none;
+    margin: 0;
+    
+}
